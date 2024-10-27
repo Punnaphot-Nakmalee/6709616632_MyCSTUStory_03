@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+body {
+    background-color: rgb(179, 177, 177);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.oval-border {
+    width: 600px; 
+    height: 90px; 
+    border: 4px solid rgb(17, 4, 4); 
+    border-radius: 60% 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 4, 4); ;
+    transform: rotate(-4.7deg);
+    color: rgb(85, 11, 11);
+}
+.container {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: center; 
+    background-image: url(./resources/wall.png);
+    height: 140px; 
+    width: 100%;
+}
+#text {
+    letter-spacing: 5px ;
+    transform: rotate(3.7deg);
+    font-family: Tangerine;
+    font-size: 63px;
+    font-style: italic;
+    margin-top: 13.8px;
+    white-space: nowrap;
+}
+img {
+    filter: grayscale(50%);
+    object-position: 10px;
+}
+h3:hover {
+    color: rgb(165, 0, 0);
+}
+h1 {
+    background-image: url(./resources/name.png);
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: repeat; 
+    height: 105px; 
+    margin: 0;
+    padding: 10px;
+}
+h1:hover {
+    background-image: url(./resources/namer.png);
+}
+.video-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(17, 2, 2);
+}
+#First {
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(65, 47, 47);
+    margin: 0px;
+    padding: 10px;
+    color:rgb(204, 204, 204);
+    font-size: 20px;
+}
+#batzz {
+    height: 240px;
+}
+#pun {
+    opacity: 50%;
+}
+#facts {
+    margin: 10px;
+    text-wrap: nowrap;
+    text-align: center;
+    color: rgb(53, 32, 32);
+    font-size: 18px;
+}
+#HIM {
+    height: 240px;
+    filter: grayscale(0%);
+}
+#HIM:hover {
+    content: url(./resources/HIMR.png);
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 40px rgb(0, 0, 0));
+}
+footer {
+    background-color: rgb(65, 47, 47); 
+    height: 40px; 
+    width: 100%;
+    clear: both;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position:inside; 
+}
+#backgroundW {
+    border-left: 80px solid rgb(85, 11, 11); /* Left border with your chosen color */
+    border-right: 80px solid  rgb(85, 11, 11);
+    border-top: 0.01px solid  rgb(85, 11, 11);
+    border-bottom: 0.1px solid rgb(85, 11, 11);
+    margin: 0;
+    padding: 0;
+}
+#navi {
+    background-color: rgb(92, 69, 69);
+    height: 45px;
+    width: 100%;
+    padding: 0px;
+}
+#navul {
+    list-style: none;
+    text-align: center;
+    white-space: nowrap;
+}
+nav li {
+    display: inline-block;
+    padding-top: 12px;
+    margin-left: 80px;
+    position: relative;
+    left: -42px; 
+}
+nav a {
+    color: rgb(204, 204, 204);
+    text-decoration:none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: rgb(29, 29, 29);
+}
+#Future {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(151, 126, 126);
+}
+#Future2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 40px;
+}
+#Future3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 64px;
+    filter: drop-shadow(0 0 5px rgb(253, 249, 249));
+    text-shadow: 0 0 2px white;
+    padding-left: 70PX;
+}
+#job {
+    float: left;
+    width: 46%;
+    text-align: center;
+    padding-right: 1%;
+    padding-left: 3%;
+    white-space: nowrap;
+    font-size: 20px;
+}
+#paint {
+    float: left;
+    width: 46%;
+    text-align: center;
+    padding-left: 1%;
+    padding-left: 3%;
+    white-space: nowrap;
+    font-size: 20px;
+}
+#hustle {
+    opacity: 50%;
+}
+#job p + p  {
+    margin-top: -15px; 
+}
+#paint p + p {
+    margin-top: -15px; 
+}
+#yesyes {
+    text-align: center;
+    font-size: 85px;
+    clear: both;
+    padding-top: 50px;
+
+    font-family: Tangerine;
+    filter: drop-shadow(0 0 5px rgb(253, 249, 249));
+}
+#float {
+    padding-top: 30px;
+}
+#wowie {
+    text-align: center;
+}
+#jheader {
+    text-align: center;
+    background-color: rgb(151, 126, 126);
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 34px;
+    
+}
+#jbelow {
+    text-align: center;
+    background-color: rgb(39, 25, 25);
+    margin: 0Px;
+    color: aliceblue;
+    height: 40px;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-family: tangerine;
+    font-size: 30px;
+}
+#text1 {
+    float: left;
+    width: 50%;
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#text2 {
+    float: right;
+    width: 50%;
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#text3 {
+    float: left;
+    width: 50%;
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#futurepic {
+    padding-right: 1%;
+    
+    
+}
