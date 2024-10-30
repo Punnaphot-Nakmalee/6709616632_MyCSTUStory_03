@@ -26,7 +26,7 @@ body {
         justify-content: center;
         background-color: rgb(17, 4, 4); ;
         transform: rotate(-4.7deg);
-        color: rgb(85, 11, 11);
+        color: rgb(129, 25, 25);
         margin-top: 3vw;
     }
     #text {
@@ -37,6 +37,9 @@ body {
         font-style: italic;
         margin-top: 13.8px;
         white-space: nowrap;
+    }
+    #videoo {
+        height: 50vw;
     }
 }
 @media (min-width: 360px) {
@@ -59,7 +62,7 @@ body {
         justify-content: center;
         background-color: rgb(17, 4, 4); ;
         transform: rotate(-4.7deg);
-        color: rgb(85, 11, 11);
+        color: rgb(129, 25, 25);
         margin-top: 3vw;
     }
     #text {
@@ -92,7 +95,7 @@ body {
         justify-content: center;
         background-color: rgb(17, 4, 4); ;
         transform: rotate(-4.7deg);
-        color: rgb(85, 11, 11);
+        color: rgb(129, 25, 25);
         margin-top: 1.5vw;
     }
     #text {
@@ -104,11 +107,18 @@ body {
         margin-top: 13.8px;
         white-space: nowrap;
     }
+    #videoo {
+        height: 20vw;
+    }
 }
-
-
-
-
+@media (max-width: 768px) {
+    #batzzl {
+        display: none;
+    }
+    #batzzr {
+        display: none;
+    }
+}
 img {
     filter: grayscale(50%);
     object-position: 10px;
@@ -121,7 +131,7 @@ h1 {
     background-size: contain; 
     background-position: center; 
     background-repeat: repeat; 
-    height: 105px; 
+    height: 5vw; 
     margin: 0;
     padding: 10px;
 }
@@ -144,8 +154,13 @@ h1:hover {
     color:rgb(204, 204, 204);
     font-size: 20px;
 }
-#batzz {
-    height: 240px;
+#batzzl {
+    height: 15vw;
+    margin-left: 0px;
+}
+#batzzr {
+    height: 15vw;
+    margin-left: 0px;
 }
 #pun {
     opacity: 50%;
