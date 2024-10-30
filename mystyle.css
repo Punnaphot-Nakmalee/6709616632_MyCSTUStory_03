@@ -69,7 +69,7 @@ body {
         font-size: 2.5vw;
     }
 }
-@media (max-width: 380px) {
+@media (min-width: 300px) {
     #container {
         display: flex;
         top: 0px;
@@ -89,7 +89,7 @@ body {
         justify-content: center;
         background-color: rgb(17, 4, 4); ;
         transform: rotate(-4.7deg);
-        color: rgb(165, 104, 104);
+        color: rgb(129, 25, 25);
         margin-top: 3vw;
     }
     #text {
@@ -125,6 +125,7 @@ body {
     }
     #container {
         display: flex;
+        position: sticky;
         top: 0px;
         z-index: 100;
         justify-content: center; 
