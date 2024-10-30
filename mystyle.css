@@ -41,6 +41,13 @@ body {
     #videoo {
         height: 50vw;
     }
+    #facts {
+        margin: 10px;
+        text-wrap: wrap;
+        text-align: center;
+        color: rgb(53, 32, 32);
+        font-size: 2.5vw;
+    }
 }
 @media (min-width: 360px) {
     #container {
@@ -62,7 +69,7 @@ body {
         justify-content: center;
         background-color: rgb(17, 4, 4); ;
         transform: rotate(-4.7deg);
-        color: rgb(129, 25, 25);
+        color: rgb(165, 104, 104);
         margin-top: 3vw;
     }
     #text {
@@ -110,6 +117,13 @@ body {
     #videoo {
         height: 20vw;
     }
+    #facts {
+        margin: 10px;
+        text-wrap: wrap;
+        text-align: center;
+        color: rgb(53, 32, 32);
+        font-size: 1vw;
+    }
 }
 @media (max-width: 768px) {
     #batzzl {
@@ -152,7 +166,7 @@ h1:hover {
     margin: 0px;
     padding: 10px;
     color:rgb(204, 204, 204);
-    font-size: 20px;
+    font-size: 2.5vw;
 }
 #batzzl {
     height: 15vw;
@@ -165,16 +179,15 @@ h1:hover {
 #pun {
     opacity: 50%;
 }
-#facts {
-    margin: 10px;
-    text-wrap: nowrap;
-    text-align: center;
-    color: rgb(53, 32, 32);
-    font-size: 18px;
-}
 #HIM {
-    height: 240px;
+    height: 50vw;
     filter: grayscale(0%);
+    padding: 10px;
+}
+@media (min-width: 768px) {
+    #HIM {
+        height: 25vw;
+    }
 }
 #HIM:hover {
     content: url(./resources/HIMR.png);
@@ -193,8 +206,8 @@ ul {
     list-style-position:inside; 
 }
 #backgroundW {
-    border-left: 80px solid rgb(85, 11, 11); /* Left border with your chosen color */
-    border-right: 80px solid  rgb(85, 11, 11);
+    border-left: 10vw solid rgb(85, 11, 11); 
+    border-right: 10vw solid  rgb(85, 11, 11);
     border-top: 0.01px solid  rgb(85, 11, 11);
     border-bottom: 0.1px solid rgb(85, 11, 11);
     margin: 0;
@@ -202,26 +215,44 @@ ul {
 }
 #navi {
     background-color: rgb(92, 69, 69);
-    height: 45px;
     width: 100%;
     padding: 0px;
 }
-#navul {
-    list-style: none;
+#navi {
+    background-color:rgb(92, 69, 69);
+    padding: 10px 0;
+}
+
+.navul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 2vw;
+}
+
+.navul li {
+    flex: 1;
     text-align: center;
-    white-space: nowrap;
+    font-size: 3vw;
 }
-nav li {
-    display: inline-block;
-    padding-top: 12px;
-    margin-left: 80px;
-    position: relative;
-    left: -42px; 
+.navul li:first-child,
+.navul li:last-child {
+    flex-grow: 100; 
 }
-nav a {
+.navul li a {
     color: rgb(204, 204, 204);
-    text-decoration:none;
-    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 1px;
+}
+
+/* Center align the middle item */
+.navul li:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
 }
 nav a:hover {
     color: rgb(29, 29, 29);
